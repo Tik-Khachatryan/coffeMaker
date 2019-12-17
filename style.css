@@ -4,14 +4,10 @@
 
 ul li {
     list-style-type: none;
-    margin: 15px;
+
+    padding: 10px;
 }
 
-.second{
-    position: absolute;
-    left: 200px;
-    bottom: 330px;
-}
 
 button{
     border-radius: 50%;
@@ -28,9 +24,9 @@ button:hover{
 
 .coffeMaker{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    background: saddlebrown;
+    background: #1c5611;
 }
 
 .main{

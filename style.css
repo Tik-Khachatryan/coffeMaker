@@ -1,0 +1,69 @@
+*{
+    transition: 1s all;
+}
+
+ul li {
+    list-style-type: none;
+    margin: 15px;
+}
+
+.second{
+    position: absolute;
+    left: 200px;
+    bottom: 330px;
+}
+
+button{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    outline: none;
+    background: grey;
+}
+
+button:hover{
+    background: #595959;
+    box-shadow: 0 0 20px #7c0000;
+}
+
+.coffeMaker{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: saddlebrown;
+}
+
+.main{
+    margin-left: 400px;
+}
+
+input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+}
+
+#coffee{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#Progress_Status {
+    margin: auto;
+    width: 50%;
+    background-color: #ddd;
+}
+
+#myprogressBar {
+    width: 2%;
+    height: 20px;
+    background-color: #4CAF50;
+}

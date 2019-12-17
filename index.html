@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>coffee maker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="coffeMaker">
+    <div class="main">
+        <ul>
+            <li>
+                <button id="expresso"></button>
+                Expresso <p id="preiceExpresso">150</p>
+            </li>
+            <li>
+                <button id="americano"></button>
+                Americano <p id="preiceAmericano">100</p>
+            </li>
+            <li>
+                <button id="tea"></button>
+                Tea <p id="preiceTea">100</p>
+            </li>
+        </ul>
+        <ul class="second">
+            <li>
+                <button id="blackCoffee"></button>
+                Black coffee <p id="preiceBlackCoffee">150</p>
+            </li>
+            <li>
+                <button id="chocolate" onclick="move()"></button>
+                Chocolate <p id="preiceChocolate">200</p>
+            </li>
+            <li>
+                <button id="cappuccino" onclick="update()"></button>
+                Cappuccino <p id="preiceCappuccino">250</p>
+            </li>
+        </ul>
+
+    </div>
+
+</div>
+<br>
+
+<div id="Progress_Status">
+    <div id="myprogressBar"></div>
+</div>
+
+<br>
+<!--<button onclick="update()">Start Download</button>-->
+<label>
+    <input type="number" placeholder="enter your coffee" id="inp">
+</label>
+<br>
+<div id="coffee"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
